@@ -1,10 +1,9 @@
-# Hapi-demo
-Hapi-demo
+# hapi v16
 
 
-## how to use
+- 查看文档
 
-```
-npm i
-npm start
-```
+  `http://localhost:3000/documentation` （你自己的服务地址 + /documentation）来查看 `Swagger` 文档
+
+## 参考
+- 

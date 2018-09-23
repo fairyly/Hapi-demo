@@ -1,22 +1,29 @@
 {
-  "name": "demo",
+  "name": "hapi-16",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "boom": "^7.1.1",
-    "express-jwt": "^5.3.0",
-    "hapi": "^17.1.1",
-    "hapi-auth-bearer-token": "^6.0.1",
-    "hapi-auth-jwt2": "github:salzhrani/hapi-auth-jwt2#v-17",
-    "jsonwebtoken": "^8.1.0",
-    "jwks-rsa": "^1.2.1",
-    "mongoose": "^4.13.6"
+    "axios": "^0.18.0",
+    "env2": "^2.2.2",
+    "hapi": "^16.6.3",
+    "hapi-auth-jwt2": "^7.4.1",
+    "hapi-pagination": "^1.22.0",
+    "hapi-swagger": "^7.10.0",
+    "inert": "^4.2.1",
+    "joi": "^13.6.0",
+    "jsonwebtoken": "^8.3.0",
+    "mysql2": "^1.6.1",
+    "package": "^1.0.1",
+    "sequelize": "^4.38.1",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^4.1.1"
   }
 }
